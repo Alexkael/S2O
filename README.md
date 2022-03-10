@@ -5,6 +5,12 @@ Code for CVPR 2022 Paper **'Enhancing Adversarial Training with Second-Order Sta
 Python 3.6+  
 Pytorch 1.8.1+cu111
 
+# How to use
+
+# Evaluation
+Following TRADES, we set epsilon=0.031, step_size=0.003 for PGD and CW evaluation. Auto attack evaluation is under standard version.
+
+
 # Reference Code
 [1] AT: https://github.com/locuslab/robust_overfitting  
 [2] TRADES: https://github.com/yaodongyu/TRADES/  
