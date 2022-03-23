@@ -27,7 +27,7 @@ parser.add_argument('--epochs', type=int, default=200, metavar='N',
 parser.add_argument('--start_epoch', type=int, default=1, metavar='N',
                     help='retrain from which epoch')
 parser.add_argument('--data', type=str, default='CIFAR10', choices=['CIFAR10', 'CIFAR100'])
-parser.add_argument('--data-path', type=str, default='../../data',
+parser.add_argument('--data-path', type=str, default='../data',
                     help='where is the dataset CIFAR-10')
 parser.add_argument('--weight-decay', '--wd', default=5e-4,
                     type=float, metavar='W')
