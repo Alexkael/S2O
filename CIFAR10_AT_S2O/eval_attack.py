@@ -56,11 +56,11 @@ kwargs = {'num_workers': 8, 'pin_memory': True} if use_cuda else {}
 # set up data loader
 transform_test = transforms.Compose([transforms.ToTensor(),])
 if args.dataset == 'cifar10':
-    testset = torchvision.datasets.CIFAR10(root='../../data', train=False, download=True, transform=transform_test)
+    testset = torchvision.datasets.CIFAR10(root='../data', train=False, download=True, transform=transform_test)
 elif args.dataset == 'cifar100':
-    testset = torchvision.datasets.CIFAR100(root='../../data', train=False, download=True, transform=transform_test)
+    testset = torchvision.datasets.CIFAR100(root='../data', train=False, download=True, transform=transform_test)
 elif args.dataset == 'svhn':
-    testset = torchvision.datasets.SVHN(root='../../data', split='test', download=True, transform=transform_test)
+    testset = torchvision.datasets.SVHN(root='../data', split='test', download=True, transform=transform_test)
 else:
     raise NotImplementedError
 
