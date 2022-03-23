@@ -410,8 +410,8 @@ def main():
 
     if args.white_box_attack:
         # white-box attack
-        for epoch in range(100,200):
-            path = '../model-cifar-wideresnet/0.3/epoch'+str(epoch)+'.pt'
+        for epoch in range(100,110):
+            path = '../model-cifar10-wideresnet/0.3/epoch'+str(epoch)+'.pt'
             print('epoch '+str(epoch))
             model = WideResNet().to(device)
             model.load_state_dict(torch.load(path))
