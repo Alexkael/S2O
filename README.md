@@ -33,7 +33,7 @@ Following TRADES, we set epsilon=0.031, step_size=0.003 for PGD and CW evaluatio
 @article{jin2022enhancing,  
   title={Enhancing Adversarial Training with Second-Order Statistics of Weights},  
   author={Gaojie Jin and Xinping Yi and Wei Huang and Sven Schewe and Xiaowei Huang},  
-  journal={arXiv preprint arXiv:2203.06020},  
+  journal={CVPR},  
   year={2022}. 
 }
 
