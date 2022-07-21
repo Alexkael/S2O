@@ -23,8 +23,8 @@ TRADES+S2O for CIFAR10, WRN34-10: run ./CIFAR10_TRADES_S2O/train_S2O.py
 We got the best performance between epoch 100-110   
 clean: 85.67  PGD-20: 58.34  AA: 54.1
 
-For AWP+S2o on CIFAR100,
-please modify train_s2o.py lines 207, 221: 0.8 -> 0.98; lines 209, 223: 0.2 -> 0.02
+For AWP+S2O on CIFAR100,
+please modify CIFAR10_AWP_S2O/train_S2O.py lines 207, 221: 0.8 -> 0.98; lines 209, 223: 0.2 -> 0.02
 
 # Evaluation
 Following TRADES, we set epsilon=0.031, step_size=0.003 for PGD and CW evaluation. Auto attack evaluation is under standard version.
