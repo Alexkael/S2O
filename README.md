@@ -1,6 +1,10 @@
-# S2O
-Code for CVPR 2022 Paper **'Enhancing Adversarial Training with Second-Order Statistics of Weights'**  
-https://arxiv.org/abs/2203.06020
+# <p align="center">S2O</p>
+<p align="center">Code for CVPR 2022/TPAMI 2025 Paper "S^2O: Enhancing Adversarial Training with Second-Order Statistics of Weights"</p> 
+
+[![Arxiv](https://img.shields.io/badge/Arxiv-2303.10653-red.svg)](https://arxiv.org/abs/2203.06020)
+[![Pub](https://img.shields.io/badge/Pub-CVPR'22-blue.svg)](https://arxiv.org/abs/2203.06020)
+![License](https://img.shields.io/badge/license-MIT-yellow) 
+ 
 
 # Requisite
 Python 3.6+  
@@ -35,6 +39,13 @@ Following TRADES, we set epsilon=0.031, step_size=0.003 for PGD and CW evaluatio
   author={Gaojie Jin and Xinping Yi and Wei Huang and Sven Schewe and Xiaowei Huang},  
   journal={CVPR},  
   year={2022}. 
+}
+
+@article{jin2025s2o,  
+  title={S^2O: Enhancing Adversarial Training with Second-Order Statistics of Weights},  
+  author={Gaojie Jin and Xinping Yi and Wei Huang and Sven Schewe and Xiaowei Huang},  
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},  
+  year={2025}. 
 }
 
 # Reference Code
